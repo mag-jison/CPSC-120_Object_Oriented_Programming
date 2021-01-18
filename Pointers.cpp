@@ -11,8 +11,7 @@ using namespace std;
 double median (int *ptr, int size)
 {
     if (size % 2 == 0){
-        cout << (*(ptr + (size / 2) - 1) + *(ptr + (size / 2)));
-	    return (*(ptr + (size / 2) - 1) + *(ptr + (size / 2))) / 2.0;
+	return (*(ptr + (size / 2) - 1) + *(ptr + (size / 2))) / 2.0;
     }
     else
         return *(ptr + (size / 2));
