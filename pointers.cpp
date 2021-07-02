@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+int main() {
    int var = 8;
    void* var_ptr = 0;
    // NULL == nullptr == 0
